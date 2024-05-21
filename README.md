@@ -165,3 +165,9 @@ Write your code in `src/queue.js`.
 are integrated from [Short track 2021 repo](https://github.com/rkhaslarov/rs-school-short-track-2021)
 
 & Thanks [mikhama](https://github.com/mikhama) for assistance!
+
+
+
+
+
+correctly checks presence of the values
