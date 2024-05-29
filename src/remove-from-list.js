@@ -30,5 +30,3 @@ function removeKFromList(l, k) {
 module.exports = {
   removeKFromList
 };
-
-// console.log(removeKFromList([3, 1, 2, 3, 4, 5],3));
