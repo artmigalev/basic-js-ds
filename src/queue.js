@@ -16,7 +16,6 @@ const { ListNode } = require("../extensions/list-node.js");
 class Queue {
   constructor() {
     this.storage = {};
-    // this.length = 0
   }
   getUnderlyingList() {
     return this.getNext(this.storage);
@@ -55,14 +54,4 @@ class Queue {
 module.exports = {
   Queue,
 };
-// const queue = new Queue();
-// queue.enqueue(1);
-// queue.enqueue(2);
-// queue.enqueue(3);
-// queue.enqueue(37);
-// queue.enqueue(4);
-// queue.enqueue(8);
-// console.log(queue.storage.value);
-// console.log(queue.getUnderlyingList());
-// console.log(queue.dequeue());
-// console.log(queue);
+

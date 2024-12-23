@@ -28,7 +28,8 @@ class Stack {
   }
 
   peek() {
-    return this.arr[this.length - 1];
+    return  this.arr.length> 0
+      ? this.arr[this.arr.length-1] : this.arr[1]
   }
 }
 
